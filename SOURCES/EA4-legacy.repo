@@ -1,0 +1,8 @@
+[EA4-legacy]
+name=EA4 Legacy ( EasyApache 4 )
+mirrorlist=http://httpupdate.cpanel.net/ea4-legacy-c$releasever-$basearch-mirrorlist
+#baseurl=http://ea4testing.cpanel.net/CentOS/$releasever/EA4-legacy/$basearch/
+gpgcheck=1
+gpgkey=https://securedownloads.cpanel.net/cPanelPublicRPMKey.asc
+enabled=1
+cost=50
