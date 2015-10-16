@@ -1,6 +1,6 @@
-Name: ea-legacy-release
+Name: cpanel-ea4-legacy-release
 Version: 0.1
-Release: 0%{?dist}
+Release: 1%{?dist}
 Summary: Access the EA4-legacy repository
 
 Group: Development/Tools
@@ -24,5 +24,8 @@ rm -rf %{buildroot}
 %{_sysconfdir}/yum.repos.d/EA4-legacy.repo
 
 %changelog
+* Fri Oct 16 2015 Darren Mobley <darren@cpanel.net> - 0.1-1
+- Renaming release packages due to conflicts in ea- namespace
+
 * Tue Oct 13 2015 Darren Mobley <darren@cpanel.net> - 0.1-0
 - Inital spec file and package creation
