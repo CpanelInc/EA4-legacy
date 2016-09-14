@@ -1,9 +1,9 @@
-Name: cpanel-ea4-legacy-release
+Name: ea4-legacy
 Version: 0.1
 # Doing release_prefix this way for Release allows for OBS-proof versioning, See EA-4602 for more details
 %define release_prefix 4
 Release: %{release_prefix}%{?dist}.cpanel
-Summary: Access the EA4-legacy repository
+Summary: Access the EA4 legacy repository
 
 Group: Development/Tools
 License: BSD 2-Clause
