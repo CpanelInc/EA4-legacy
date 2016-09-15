@@ -1,9 +1,9 @@
-Name: cpanel-ea4-legacy-release
+Name: ea4-legacy
 Version: 0.1
 # Doing release_prefix this way for Release allows for OBS-proof versioning, See EA-4602 for more details
-%define release_prefix 4
+%define release_prefix 5
 Release: %{release_prefix}%{?dist}.cpanel
-Summary: Access the EA4-legacy repository
+Summary: Access the EA4 legacy repository
 
 Group: Development/Tools
 License: BSD 2-Clause
@@ -26,6 +26,9 @@ rm -rf %{buildroot}
 %{_sysconfdir}/yum.repos.d/EA4-legacy.repo
 
 %changelog
+* Wed Sep 14 2016 Dan Muey <dan@cpanel.net> - 0.1-5
+- EA-5221: Change package name to match github for clarity
+
 * Mon Jun 20 2016 Dan Muey <dan@cpanel.net> - 0.1-4
 - EA-4383: Update Release value to OBS-proof versioning
 
