@@ -1,5 +1,5 @@
-[EA4-legacy]
-name=EA4 Legacy ( EasyApache 4 )
+[EA4-legacy-c$releasever]
+name=EA4 Legacy ( EasyApache 4 - c$releasever )
 mirrorlist=http://httpupdate.cpanel.net/ea4-legacy-c$releasever-$basearch-mirrorlist
 gpgcheck=1
 gpgkey=https://securedownloads.cpanel.net/cPanelPublicRPMKey.asc
